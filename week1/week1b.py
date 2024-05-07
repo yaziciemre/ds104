@@ -1,5 +1,7 @@
+import sys
 import operator
 
+# winzip == compression software
 # 1 load data from file or value directly
 # 2 find the words in text, find the frequency of words
 # 3 calculate the length and frequency gain of each word
@@ -42,10 +44,17 @@ n = 20
 # get the top n items from gain
 shortform = sorted_d[ : n]
 
-print(shortform)
 
 # 6
+KISA = text
+index = 0
+for s in shortform:
+    index += 1
+    KISA = KISA.replace( s[0] + " ", "#" + str(index) + " ")
 
+
+print(len(text))
+print(len(KISA))
 
 
 # All of them below are same

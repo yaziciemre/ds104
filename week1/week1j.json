@@ -1,0 +1,22 @@
+[
+    {"math": 94, "science": 13, "grammar": 35},
+    {"math": 87, "science": 78, "grammar": 56},
+    {"math": 65, "science": 82, "grammar": 71},
+    {"math": 92, "science": 60, "grammar": 45},
+    {"math": 74, "science": 88, "grammar": 66},
+    {"math": 58, "science": 34, "grammar": 78},
+    {"math": 83, "science": 76, "grammar": 49},
+    {"math": 97, "science": 67, "grammar": 53},
+    {"math": 61, "science": 91, "grammar": 44},
+    {"math": 89, "science": 49, "grammar": 68},
+    {"math": 70, "science": 95, "grammar": 52},
+    {"math": 56, "science": 39, "grammar": 83},
+    {"math": 99, "science": 73, "grammar": 88},
+    {"math": 82, "science": 52, "grammar": 79},
+    {"math": 68, "science": 85, "grammar": 64},
+    {"math": 53, "science": 48, "grammar": 74},
+    {"math": 77, "science": 90, "grammar": 57},
+    {"math": 80, "science": 55, "grammar": 42},
+    {"math": 63, "science": 22, "grammar": 61},
+    {"math": 86, "science": 70, "grammar": 77}
+]

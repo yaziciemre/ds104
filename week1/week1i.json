@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Alice Smith",
+        "age": 22,
+        "major": "Computer Science",
+        "gender": "Female"
+    },
+    {
+        "name": "Bob Johnson",
+        "age": 20,
+        "major": "Mathematics",
+        "gender": "Male"
+    },
+    {
+        "name": "Carol Lee",
+        "age": 23,
+        "major": "Physics",
+        "gender": "Female"
+    },
+    {
+        "name": "David Brown",
+        "age": 21,
+        "major": "Computer Engineering",
+        "gender": "Male"
+    },
+    {
+        "name": "Eva White",
+        "age": 24,
+        "major": "Computer Engineering",
+        "gender": "Female"
+    },
+    {
+        "name": "Frank Green",
+        "age": 19,
+        "major": "English Literature",
+        "gender": "Male"
+    },
+    {
+        "name": "Grace Hall",
+        "age": 25,
+        "major": "History",
+        "gender": "Female"
+    },
+    {
+        "name": "Henry Adams",
+        "age": 22,
+        "major": "Political Science",
+        "gender": "Male"
+    },
+    {
+        "name": "Isabel Martinez",
+        "age": 21,
+        "major": "Art",
+        "gender": "Female"
+    },
+    {
+        "name": "Jack Wilson",
+        "age": 20,
+        "major": "Economics",
+        "gender": "Male"
+    },
+        {
+        "name": "Karen Thompson",
+        "age": 22,
+        "major": "Sociology",
+        "gender": "Female"
+    },
+    {
+        "name": "Liam Roberts",
+        "age": 19,
+        "major": "Computer Engineering",
+        "gender": "Male"
+    },
+    {
+        "name": "Mia Anderson",
+        "age": 23,
+        "major": "Computer Engineering",
+        "gender": "Female"
+    },
+    {
+        "name": "Noah Clark",
+        "age": 24,
+        "major": "Mechanical Engineering",
+        "gender": "Male"
+    },
+    {
+        "name": "Olivia Garcia",
+        "age": 20,
+        "major": "Business Administration",
+        "gender": "Female"
+    },
+    {
+        "name": "Peter Davis",
+        "age": 21,
+        "major": "Nursing",
+        "gender": "Male"
+    },
+    {
+        "name": "Quinn Taylor",
+        "age": 22,
+        "major": "Nursing",
+        "gender": "Female"
+    },
+    {
+        "name": "Rachel Moore",
+        "age": 25,
+        "major": "Nursing",
+        "gender": "Female"
+    },
+    {
+        "name": "Sam Wilson",
+        "age": 19,
+        "major": "Finance",
+        "gender": "Male"
+    },
+    {
+        "name": "Tina Johnson",
+        "age": 24,
+        "major": "Nursing",
+        "gender": "Female"
+    },
+    {
+        "name": "Uma Patel",
+        "age": 22,
+        "major": "Nursing",
+        "gender": "Female"
+    },
+    {
+        "name": "Victor Lee",
+        "age": 23,
+        "major": "Marketing",
+        "gender": "Male"
+    },
+    {
+        "name": "Wendy Allen",
+        "age": 21,
+        "major": "Marketing",
+        "gender": "Female"
+    },
+    {
+        "name": "Xavier Morgan",
+        "age": 20,
+        "major": "Information Technology",
+        "gender": "Male"
+    },
+    {
+        "name": "Yasmin Khan",
+        "age": 24,
+        "major": "Marketing",
+        "gender": "Female"
+    },
+    {
+        "name": "Zachary Wright",
+        "age": 19,
+        "major": "Civil Engineering",
+        "gender": "Male"
+    },
+    {
+        "name": "Amelia Turner",
+        "age": 22,
+        "major": "Civil Engineering",
+        "gender": "Female"
+    },
+    {
+        "name": "Brian Carter",
+        "age": 21,
+        "major": "Agricultural Sciences",
+        "gender": "Male"
+    },
+    {
+        "name": "Cindy Hughes",
+        "age": 23,
+        "major": "Agricultural Sciences",
+        "gender": "Female"
+    },
+    {
+        "name": "Derek Fox",
+        "age": 25,
+        "major": "Nursing",
+        "gender": "Male"
+    }
+]

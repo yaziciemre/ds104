@@ -1,0 +1,51 @@
+{
+	"names":[
+    "Alice Smith",
+    "Bob Johnson",
+    "Carol Lee",
+    "David Brown",
+    "Eva White",
+    "Frank Green",
+    "Grace Hall",
+    "Henry Adams",
+    "Isabel Martinez",
+    "Jack Wilson",
+    "Karen Thompson",
+    "Liam Roberts",
+    "Mia Anderson",
+    "Noah Clark",
+    "Olivia Garcia",
+    "Peter Davis",
+    "Quinn Taylor",
+    "Rachel Moore",
+    "Sam Wilson",
+    "Tina Johnson"
+	],
+	"ages":
+	[
+    22, 20, 23, 21, 24, 19, 25, 22, 21, 20,
+    22, 19, 23, 24, 20, 21, 22, 25, 19, 24
+],
+	"majors":[
+    "Computer Science",
+    "Mathematics",
+    "Physics",
+    "Biology",
+    "Chemistry",
+    "English Literature",
+    "History",
+    "Political Science",
+    "Art",
+    "Economics",
+    "Sociology",
+    "Computer Engineering",
+    "Environmental Science",
+    "Mechanical Engineering",
+    "Business Administration",
+    "Philosophy",
+    "Music",
+    "Psychology",
+    "Finance",
+    "Nursing"
+]
+}

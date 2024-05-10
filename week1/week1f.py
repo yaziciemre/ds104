@@ -116,18 +116,98 @@ print(round(3.1415, 3))
 a = [40,42,45,60,75,80,61,52,70,99, 0, 33, 39]
 b = []
 
-for i in a[:10] :
+for i in a: # [:10] 
 	celcius = fToC(i)
-	if celcius > 15.0:
+	if i > 40:
 		b.append( round(celcius, 2) )
-	else:
-		b.append( celcius )
+
 
 print(a)
 print(b)
 
 
-	
+
+
+d = []
+for i in a:
+	if i > 40:
+		d.append( fToC(i) )
+
+
+
+
+c = [fToC(i) for i in a if i > 40.0] # return me a list of items' celcius which are greater than 40
+print("a", a)
+print("c", c)
+
+
+
+# =======================
+
+aa = [i for i in a if i > 40.0]
+c = [fToC(i) for i in aa] # return me a list of items' celcius which are greater than 40
+
+
+
+# Data Type Conversion
+x = 3
+y = "3"
+
+
+
+str
+int
+float
+bool
+list
+dict
+
+
+
+# 3 ==> 3.0   int ==> float
+print( float(3) )
+
+# 3 ==> "3"   int ==> str
+print( str(3), type(str(3)) )
+
+# True ==> 1  bool ==> int
+print(int(True), int(False))
+
+# 3.5 ==> 3    float ==> int
+print(int(3.5))
+
+# "5" ==> 5   str ==> int
+print(int("5"))
+
+# "Emre" ==> ['E', 'm', 'r', 'e']    str ==> list
+print(list("Emre"))
+
+print('=============')
+print(str(True), type(str(True)))
+print(True, type(True))
+
+
+
+print('=============')
+
+
+
+def oku( sayi: int ) -> str:
+	...
+
+
+
+oku( 1453 ) == "bin dort yuz elli uc"
+oku( 1 ) == "bir"
+oku( 426 ) == "dort yuz yirmi alti"
+
+
+
+
+
+
+
+
 
 
 	# return multiple values
@@ -136,3 +216,13 @@ print(b)
 	# if any(ext in email.split('@')[1] for ext in ['_', '-'] ):
 
 
+
+
+
+
+
+
+#def fToC( f: float ) -> float:
+#	return (f - 32.0) / 1.8
+
+#fToC2 = lambda f: (f - 32.0) / 1.8

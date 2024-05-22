@@ -1,0 +1,11 @@
+Policy ID,Customer Name,Vehicle Make,Vehicle Model,Year,Premium Amount,Claimed,Claim Amount
+1,John Doe,Toyota,Camry,2018,1200,Yes,5000
+2,Jane Smith,Honda,Accord,2017,1100,No,0
+3,Bob Johnson,Ford,Focus,2019,1300,Yes,3000
+4,Alice Brown,Nissan,Altima,2016,1150,No,0
+5,Charlie Black,Toyota,Corolla,2020,1400,Yes,4000
+6,Eve White,Honda,Civic,2015,1050,No,0
+7,Frank Green,Ford,Fusion,2018,1250,Yes,2500
+8,Grace Red,Nissan,Sentra,2017,1120,No,0
+9,Hank Blue,Toyota,Camry,2019,1280,Yes,3500
+10,Ivy Gold,Honda,Accord,2016,1180,No,0

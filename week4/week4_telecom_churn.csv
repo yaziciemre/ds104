@@ -1,0 +1,12 @@
+Correlations,Churn,AccountWeeks,ContractRenewal,DataPlan,DataUsage,CustServCalls,DayMins,DayCalls,MonthlyCharge,OverageFee,RoamMins
+Churn,1.000,,,,,,,,,,
+AccountWeeks,0.017,1.000,,,,,,,,,
+ContractRenewal,-0.260,-0.025,1.000,,,,,,,,
+DataPlan,-0.102,0.003,-0.006,1.000,,,,,,,
+DataUsage,-0.087,0.014,-0.019,0.946,1.000,,,,,,
+CustServCalls,0.209,-0.004,0.025,-0.018,-0.022,1.000,,,,,
+DayMins,0.205,0.006,-0.049,-0.002,0.003,-0.013,1.000,,,,
+DayCalls,0.018,0.038,-0.004,-0.011,-0.008,-0.019,0.007,1.000,,,
+MonthlyCharge,0.072,0.013,-0.047,0.737,0.782,-0.028,0.568,-0.008,1.000,,
+OverageFee,0.093,-0.007,-0.019,0.022,0.020,-0.013,0.007,-0.021,0.282,1.000,
+RoamMins,0.068,0.010,-0.046,-0.001,0.163,-0.010,-0.010,0.022,0.117,-0.011,1.000

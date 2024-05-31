@@ -23,8 +23,15 @@ print( "count", len(df['Flight Distance']) )
 print( "q1", df['Flight Distance'].quantile(0.25) )
 
 
+
 upper = df['Flight Distance'].mean() + df['Flight Distance'].std() * 3
 lower = df['Flight Distance'].mean() - df['Flight Distance'].std() * 3
+
+
+
+df = df[ df['Flight Distance'] < upper ]
+df = df[ df['Flight Distance'] > lower ]
+
 
 #! FILTERING
 

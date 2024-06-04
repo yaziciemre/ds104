@@ -1,0 +1,3903 @@
+       is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+0                0        109  ...               2016-01-02              1
+1                0        109  ...               2016-01-02              1
+2                1          2  ...               2016-01-01              1
+3                0         88  ...               2016-01-03              1
+4                1         20  ...               2015-12-22              1
+...            ...        ...  ...                      ...            ...
+64119            0         23  ...               2017-09-06              0
+64120            0        102  ...               2017-09-07              0
+64121            0         34  ...               2017-09-07              0
+64122            0        109  ...               2017-09-07              0
+64123            0        205  ...               2017-09-07              0
+
+[64124 rows x 31 columns]
+{"arrival_date_month":{"0":"January","1":"January","2":"January","3":"January","4":"January","5":"January","6":"January","7":"January","8":"January","9":"January"},"is_canceled":{"0":0,"1":0,"2":1,"3":0,"4":1,"5":1,"6":0,"7":1,"8":0,"9":1}}
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>is_canceled</th>
+      <th>lead_time</th>
+      <th>arrival_date_year</th>
+      <th>arrival_date_month</th>
+      <th>arrival_date_week_number</th>
+      <th>arrival_date_day_of_month</th>
+      <th>stays_in_weekend_nights</th>
+      <th>stays_in_week_nights</th>
+      <th>adults</th>
+      <th>children</th>
+      <th>babies</th>
+      <th>meal</th>
+      <th>country</th>
+      <th>market_segment</th>
+      <th>distribution_channel</th>
+      <th>is_repeated_guest</th>
+      <th>previous_cancellations</th>
+      <th>previous_bookings_not_canceled</th>
+      <th>reserved_room_type</th>
+      <th>assigned_room_type</th>
+      <th>booking_changes</th>
+      <th>deposit_type</th>
+      <th>agent</th>
+      <th>days_in_waiting_list</th>
+      <th>customer_type</th>
+      <th>adr</th>
+      <th>required_car_parking_spaces</th>
+      <th>total_of_special_requests</th>
+      <th>reservation_status</th>
+      <th>reservation_status_date</th>
+      <th>hotel_isResort</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>109</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>RUS</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient-Party</td>
+      <td>59.94</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Check-Out</td>
+      <td>2016-01-02</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>109</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>RUS</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>H</td>
+      <td>H</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient-Party</td>
+      <td>116.10</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Check-Out</td>
+      <td>2016-01-02</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1</td>
+      <td>2</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>89.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>No-Show</td>
+      <td>2016-01-01</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0</td>
+      <td>88</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>ARG</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>241</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>73.46</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Check-Out</td>
+      <td>2016-01-03</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1</td>
+      <td>20</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>G</td>
+      <td>G</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>119.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2015-12-22</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>1</td>
+      <td>76</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>57.90</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-12-20</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>0</td>
+      <td>88</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>ARG</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>241</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>90.17</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Check-Out</td>
+      <td>2016-01-03</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>1</td>
+      <td>113</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>PRT</td>
+      <td>Groups</td>
+      <td>Direct</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>Non Refund</td>
+      <td>305</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>72.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2015-11-16</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>0</td>
+      <td>110</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>FRA</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>46.93</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Check-Out</td>
+      <td>2016-01-09</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>1</td>
+      <td>103</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>36.45</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-12-12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>1</td>
+      <td>22</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>96.00</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Canceled</td>
+      <td>2015-12-26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>1</td>
+      <td>0</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>306</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>32.30</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-04</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>1</td>
+      <td>3</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>4</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>52.80</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-04</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>1</td>
+      <td>20</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>4</td>
+      <td>1</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>242</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>54.40</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-12-26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>1</td>
+      <td>62</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>4</td>
+      <td>1</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>61.20</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-11-17</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>1</td>
+      <td>189</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>25.11</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Canceled</td>
+      <td>2015-12-26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>1</td>
+      <td>132</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>5</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>29.16</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-09-14</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>1</td>
+      <td>13</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>5</td>
+      <td>8</td>
+      <td>20</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Undefined</td>
+      <td>PRT</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>332</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>65.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2015-12-29</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>0</td>
+      <td>86</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>6</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>GBR</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>79.50</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Check-Out</td>
+      <td>2016-01-07</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>0</td>
+      <td>187</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>6</td>
+      <td>0</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>DEU</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>41.40</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Check-Out</td>
+      <td>2016-01-10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>0</td>
+      <td>85</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>6</td>
+      <td>0</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>BRA</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>2</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>47.40</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Check-Out</td>
+      <td>2016-01-10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>1</td>
+      <td>93</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>6</td>
+      <td>2</td>
+      <td>6</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Direct</td>
+      <td>Direct</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>250</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>47.60</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-11-12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>1</td>
+      <td>93</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>6</td>
+      <td>2</td>
+      <td>6</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Direct</td>
+      <td>Direct</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>G</td>
+      <td>G</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>250</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>73.10</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-11-12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>1</td>
+      <td>0</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>7</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>48.00</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Canceled</td>
+      <td>2016-01-07</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>1</td>
+      <td>143</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>7</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>38.40</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Canceled</td>
+      <td>2015-09-05</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>1</td>
+      <td>223</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>7</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>171</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>107.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2015-06-26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>1</td>
+      <td>117</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>7</td>
+      <td>2</td>
+      <td>5</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>PRT</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>156</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>33.08</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Canceled</td>
+      <td>2015-11-26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>1</td>
+      <td>13</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>8</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>48.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2015-12-28</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>1</td>
+      <td>24</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>8</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>1</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>48.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-12-28</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>1</td>
+      <td>2</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>8</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>48.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No-Show</td>
+      <td>2016-01-08</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>0</td>
+      <td>59</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>8</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>8</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>29.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Check-Out</td>
+      <td>2016-01-10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>1</td>
+      <td>6</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>8</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>96.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-04</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>1</td>
+      <td>11</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>8</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>314</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>29.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>No-Show</td>
+      <td>2016-01-08</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>1</td>
+      <td>19</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>8</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>52.80</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-06</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>1</td>
+      <td>19</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>8</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>52.80</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-06</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>0</td>
+      <td>74</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>8</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>IRL</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>115</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>33.30</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Check-Out</td>
+      <td>2016-01-12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>0</td>
+      <td>169</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>8</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>GBR</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>50.40</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Check-Out</td>
+      <td>2016-01-13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>1</td>
+      <td>200</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>8</td>
+      <td>8</td>
+      <td>20</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>50.40</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2015-09-21</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>1</td>
+      <td>1</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>9</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>39.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-08</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>1</td>
+      <td>28</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>9</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>56.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-05</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>1</td>
+      <td>110</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>9</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>36.45</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2015-10-05</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>1</td>
+      <td>15</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>9</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>242</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>48.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2015-12-30</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>1</td>
+      <td>103</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>9</td>
+      <td>2</td>
+      <td>6</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>G</td>
+      <td>G</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>77.40</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-10-05</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>0</td>
+      <td>87</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>2</td>
+      <td>9</td>
+      <td>4</td>
+      <td>10</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>DEU</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>171</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>26.10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Check-Out</td>
+      <td>2016-01-23</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>1</td>
+      <td>177</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>3</td>
+      <td>10</td>
+      <td>2</td>
+      <td>4</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>25.11</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-09-04</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>1</td>
+      <td>6</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>3</td>
+      <td>10</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>48.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-06</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>1</td>
+      <td>99</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>3</td>
+      <td>12</td>
+      <td>2</td>
+      <td>10</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>242</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>41.40</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2015-10-28</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>1</td>
+      <td>99</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>3</td>
+      <td>12</td>
+      <td>2</td>
+      <td>10</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>242</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>41.40</td>
+      <td>0</td>
+      <td>1</td>
+      <td>No-Show</td>
+      <td>2016-01-12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>0</td>
+      <td>172</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>3</td>
+      <td>12</td>
+      <td>8</td>
+      <td>20</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>GBR</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>314</td>
+      <td>0</td>
+      <td>Contract</td>
+      <td>25.92</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Check-Out</td>
+      <td>2016-02-09</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>1</td>
+      <td>284</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>3</td>
+      <td>12</td>
+      <td>8</td>
+      <td>20</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>171</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>26.10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2015-09-12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>1</td>
+      <td>122</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>3</td>
+      <td>12</td>
+      <td>12</td>
+      <td>30</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>8</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>22.11</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2015-12-04</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>0</td>
+      <td>0</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>3</td>
+      <td>13</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>I</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>242</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Check-Out</td>
+      <td>2016-01-13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>1</td>
+      <td>15</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>3</td>
+      <td>13</td>
+      <td>0</td>
+      <td>4</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>39.00</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Canceled</td>
+      <td>2016-01-08</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>1</td>
+      <td>34</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>3</td>
+      <td>15</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>44.80</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-12-26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>1</td>
+      <td>1</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>3</td>
+      <td>16</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>59.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>No-Show</td>
+      <td>2016-01-16</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>1</td>
+      <td>7</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>3</td>
+      <td>16</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>241</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>57.60</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-15</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>1</td>
+      <td>172</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>17</td>
+      <td>3</td>
+      <td>5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>59.40</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-09-21</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>1</td>
+      <td>172</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>17</td>
+      <td>3</td>
+      <td>5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>29.16</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-17</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>1</td>
+      <td>12</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>18</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Complementary</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>F</td>
+      <td>F</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>15</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-07</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>1</td>
+      <td>31</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>18</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>44.80</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-12-26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>1</td>
+      <td>3</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>19</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>39.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>1</td>
+      <td>34</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>21</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>44.80</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-12-26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>1</td>
+      <td>26</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>21</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>44.80</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-12-29</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>1</td>
+      <td>3</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>22</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>330</td>
+      <td>0</td>
+      <td>Transient-Party</td>
+      <td>38.00</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Canceled</td>
+      <td>2016-01-21</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>0</td>
+      <td>101</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>22</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>GBR</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>241</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>66.98</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Check-Out</td>
+      <td>2016-01-24</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>1</td>
+      <td>3</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>22</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>330</td>
+      <td>0</td>
+      <td>Transient-Party</td>
+      <td>43.00</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Canceled</td>
+      <td>2016-01-21</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>66</th>
+      <td>1</td>
+      <td>13</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>22</td>
+      <td>2</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>44.80</td>
+      <td>0</td>
+      <td>2</td>
+      <td>No-Show</td>
+      <td>2016-01-22</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>1</td>
+      <td>11</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>23</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>48.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>No-Show</td>
+      <td>2016-01-23</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>68</th>
+      <td>1</td>
+      <td>1</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>4</td>
+      <td>23</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>F</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>96.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>No-Show</td>
+      <td>2016-01-23</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>69</th>
+      <td>1</td>
+      <td>173</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>25</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>59.40</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-08-10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>0</td>
+      <td>160</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>25</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>GBR</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>241</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>36.86</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Check-Out</td>
+      <td>2016-01-29</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>71</th>
+      <td>0</td>
+      <td>154</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>26</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>KOR</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>35.16</td>
+      <td>1</td>
+      <td>2</td>
+      <td>Check-Out</td>
+      <td>2016-01-27</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>72</th>
+      <td>0</td>
+      <td>214</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>26</td>
+      <td>12</td>
+      <td>30</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>GBR</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>8</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>31.45</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Check-Out</td>
+      <td>2016-03-08</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>73</th>
+      <td>0</td>
+      <td>154</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>26</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>KOR</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>29.16</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Check-Out</td>
+      <td>2016-01-27</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>74</th>
+      <td>1</td>
+      <td>16</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>27</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>48.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-16</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>75</th>
+      <td>1</td>
+      <td>2</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>28</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Corporate</td>
+      <td>Corporate</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>126</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>30.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>76</th>
+      <td>1</td>
+      <td>80</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>28</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>48.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-12-26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>1</td>
+      <td>33</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>28</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>39.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-20</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>78</th>
+      <td>1</td>
+      <td>185</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>28</td>
+      <td>2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>1</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>32.40</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Canceled</td>
+      <td>2015-07-28</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>1</td>
+      <td>48</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>29</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>PRT</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>171</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>55.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-07</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>80</th>
+      <td>1</td>
+      <td>157</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>29</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>F</td>
+      <td>F</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>242</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>88.20</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-05</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>81</th>
+      <td>1</td>
+      <td>15</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>5</td>
+      <td>30</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>48.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-18</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>82</th>
+      <td>1</td>
+      <td>22</td>
+      <td>2016</td>
+      <td>January</td>
+      <td>6</td>
+      <td>31</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>52.80</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Canceled</td>
+      <td>2016-01-11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>83</th>
+      <td>1</td>
+      <td>13</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Direct</td>
+      <td>Direct</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>1</td>
+      <td>No Deposit</td>
+      <td>250</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>67.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-27</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>1</td>
+      <td>11</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Corporate</td>
+      <td>Corporate</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>94</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>27.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-25</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>1</td>
+      <td>28</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>D</td>
+      <td>D</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>46.40</td>
+      <td>0</td>
+      <td>2</td>
+      <td>Canceled</td>
+      <td>2016-01-11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>86</th>
+      <td>0</td>
+      <td>101</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>1</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>GBR</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>43.20</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Check-Out</td>
+      <td>2016-02-08</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>87</th>
+      <td>1</td>
+      <td>202</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>2</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>1</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>27.90</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-11-11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>1</td>
+      <td>133</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>2</td>
+      <td>5</td>
+      <td>15</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>171</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>24.94</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-21</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>1</td>
+      <td>4</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>3</td>
+      <td>0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>68.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-30</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>0</td>
+      <td>116</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>3</td>
+      <td>0</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>GBR</td>
+      <td>Direct</td>
+      <td>Direct</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>F</td>
+      <td>F</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>250</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>56.10</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Check-Out</td>
+      <td>2016-02-07</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>1</td>
+      <td>100</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>3</td>
+      <td>0</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Direct</td>
+      <td>Direct</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>F</td>
+      <td>F</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>250</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>56.10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2015-10-26</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>0</td>
+      <td>97</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>3</td>
+      <td>0</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>GBR</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>F</td>
+      <td>F</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>36</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>50.54</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Check-Out</td>
+      <td>2016-02-07</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>1</td>
+      <td>39</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>3</td>
+      <td>2</td>
+      <td>5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>HB</td>
+      <td>PRT</td>
+      <td>Offline TA/TO</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>6</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>55.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>1</td>
+      <td>20</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>39.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-18</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>1</td>
+      <td>142</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>E</td>
+      <td>E</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>50.40</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-20</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>1</td>
+      <td>17</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>54.67</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>97</th>
+      <td>1</td>
+      <td>26</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>4</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>G</td>
+      <td>G</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>87.00</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2016-01-11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>98</th>
+      <td>1</td>
+      <td>83</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>4</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>G</td>
+      <td>G</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>98.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Canceled</td>
+      <td>2016-01-09</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>99</th>
+      <td>1</td>
+      <td>99</td>
+      <td>2016</td>
+      <td>February</td>
+      <td>6</td>
+      <td>4</td>
+      <td>4</td>
+      <td>8</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>BB</td>
+      <td>PRT</td>
+      <td>Online TA</td>
+      <td>TA/TO</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>A</td>
+      <td>A</td>
+      <td>0</td>
+      <td>No Deposit</td>
+      <td>240</td>
+      <td>0</td>
+      <td>Transient</td>
+      <td>38.88</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Canceled</td>
+      <td>2015-12-25</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+|    | arrival_date_month   |   is_canceled |
+|---:|:---------------------|--------------:|
+|  0 | January              |             0 |
+|  1 | January              |             0 |
+|  2 | January              |             1 |
+|  3 | January              |             0 |
+|  4 | January              |             1 |
+|  5 | January              |             1 |
+|  6 | January              |             0 |
+|  7 | January              |             1 |
+|  8 | January              |             0 |
+|  9 | January              |             1 |
+       is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+0                0        109  ...               2016-01-02              1
+1                0        109  ...               2016-01-02              1
+2                1          2  ...               2016-01-01              1
+3                0         88  ...               2016-01-03              1
+4                1         20  ...               2015-12-22              1
+...            ...        ...  ...                      ...            ...
+64119            0         23  ...               2017-09-06              0
+64120            0        102  ...               2017-09-07              0
+64121            0         34  ...               2017-09-07              0
+64122            0        109  ...               2017-09-07              0
+64123            0        205  ...               2017-09-07              0
+
+[64124 rows x 31 columns]
+('Aviation',)
+       is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+23896            1          1  ...               2016-04-11              0
+23923            1          1  ...               2016-04-12              0
+25092            1         20  ...               2016-05-06              0
+25093            1         20  ...               2016-05-06              0
+37823            0          0  ...               2016-02-19              0
+38254            0          5  ...               2016-03-03              0
+39692            0          2  ...               2016-04-08              0
+39722            0          2  ...               2016-04-08              0
+39937            0          4  ...               2016-04-14              0
+40013            0          5  ...               2016-04-15              0
+40014            0          6  ...               2017-05-30              0
+40349            0          5  ...               2016-04-22              0
+40380            0         13  ...               2016-04-23              0
+40383            0         13  ...               2016-04-23              0
+40384            1         20  ...               2016-05-06              0
+40537            0          5  ...               2016-04-27              0
+40938            0          2  ...               2017-01-20              0
+47553            0          1  ...               2016-09-15              0
+47969            0          3  ...               2016-09-22              0
+47970            0          2  ...               2016-10-12              0
+50637            0          2  ...               2016-11-16              0
+57152            0          2  ...               2017-04-27              0
+58428            0          0  ...               2017-05-20              0
+58429            0          0  ...               2017-05-20              0
+
+[24 rows x 31 columns]
+('Complementary',)
+       is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+58               1         12  ...               2016-01-07              1
+1059             0          3  ...               2016-05-21              1
+3231             1         79  ...               2016-10-27              1
+3483             1         14  ...               2016-11-30              1
+3741             1          1  ...               2017-01-11              1
+...            ...        ...  ...                      ...            ...
+57581            0          1  ...               2017-05-05              0
+59289            0          0  ...               2017-06-04              0
+59290            0          1  ...               2017-06-04              0
+59294            0          6  ...               2017-06-05              0
+60592            0          1  ...               2017-06-29              0
+
+[81 rows x 31 columns]
+('Corporate',)
+       is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+75               1          2  ...               2016-01-26              1
+84               1         11  ...               2016-01-25              1
+2815             0        300  ...               2016-09-25              1
+2816             0        300  ...               2016-09-25              1
+2821             0        300  ...               2016-09-25              1
+...            ...        ...  ...                      ...            ...
+60377            0        149  ...               2017-06-25              0
+60381            0        149  ...               2017-06-25              0
+60384            0        149  ...               2017-06-25              0
+60988            0         10  ...               2017-07-07              0
+60998            0         10  ...               2017-07-07              0
+
+[303 rows x 31 columns]
+('Direct',)
+       is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+21               1         93  ...               2015-11-12              1
+22               1         93  ...               2015-11-12              1
+83               1         13  ...               2016-01-27              1
+90               0        116  ...               2016-02-07              1
+91               1        100  ...               2015-10-26              1
+...            ...        ...  ...                      ...            ...
+64093            0        135  ...               2017-09-04              0
+64100            0         54  ...               2017-09-04              0
+64103            0        261  ...               2017-09-04              0
+64104            0        207  ...               2017-09-04              0
+64115            0        188  ...               2017-09-05              0
+
+[5351 rows x 31 columns]
+('Groups',)
+       is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+7                1        113  ...               2015-11-16              1
+120              1        102  ...               2016-02-02              1
+125              0        103  ...               2016-02-11              1
+126              1        103  ...               2016-01-16              1
+127              0        103  ...               2016-02-11              1
+...            ...        ...  ...                      ...            ...
+63988            0        213  ...               2017-09-01              0
+64016            0        213  ...               2017-09-01              0
+64020            0        213  ...               2017-09-01              0
+64021            0        213  ...               2017-09-01              0
+64022            0        213  ...               2017-09-01              0
+
+[2171 rows x 31 columns]
+('Offline TA/TO',)
+       is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+17               1         13  ...               2015-12-29              1
+25               1        223  ...               2015-06-26              1
+26               1        117  ...               2015-11-26              1
+30               0         59  ...               2016-01-10              1
+32               1         11  ...               2016-01-08              1
+...            ...        ...  ...                      ...            ...
+64109            0        200  ...               2017-09-04              0
+64112            0        247  ...               2017-09-04              0
+64117            0        164  ...               2017-09-06              0
+64118            0         21  ...               2017-09-06              0
+64119            0         23  ...               2017-09-06              0
+
+[10608 rows x 31 columns]
+('Online TA',)
+       is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+0                0        109  ...               2016-01-02              1
+1                0        109  ...               2016-01-02              1
+2                1          2  ...               2016-01-01              1
+3                0         88  ...               2016-01-03              1
+4                1         20  ...               2015-12-22              1
+...            ...        ...  ...                      ...            ...
+64116            0        135  ...               2017-09-05              0
+64120            0        102  ...               2017-09-07              0
+64121            0         34  ...               2017-09-07              0
+64122            0        109  ...               2017-09-07              0
+64123            0        205  ...               2017-09-07              0
+
+[45586 rows x 31 columns]
+>> Online TA
+<<        is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+0                0        109  ...               2016-01-02              1
+1                0        109  ...               2016-01-02              1
+2                1          2  ...               2016-01-01              1
+3                0         88  ...               2016-01-03              1
+4                1         20  ...               2015-12-22              1
+...            ...        ...  ...                      ...            ...
+64116            0        135  ...               2017-09-05              0
+64120            0        102  ...               2017-09-07              0
+64121            0         34  ...               2017-09-07              0
+64122            0        109  ...               2017-09-07              0
+64123            0        205  ...               2017-09-07              0
+
+[45586 rows x 31 columns]
+>> Groups
+<<        is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+7                1        113  ...               2015-11-16              1
+120              1        102  ...               2016-02-02              1
+125              0        103  ...               2016-02-11              1
+126              1        103  ...               2016-01-16              1
+127              0        103  ...               2016-02-11              1
+...            ...        ...  ...                      ...            ...
+63988            0        213  ...               2017-09-01              0
+64016            0        213  ...               2017-09-01              0
+64020            0        213  ...               2017-09-01              0
+64021            0        213  ...               2017-09-01              0
+64022            0        213  ...               2017-09-01              0
+
+[2171 rows x 31 columns]
+>> Offline TA/TO
+<<        is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+17               1         13  ...               2015-12-29              1
+25               1        223  ...               2015-06-26              1
+26               1        117  ...               2015-11-26              1
+30               0         59  ...               2016-01-10              1
+32               1         11  ...               2016-01-08              1
+...            ...        ...  ...                      ...            ...
+64109            0        200  ...               2017-09-04              0
+64112            0        247  ...               2017-09-04              0
+64117            0        164  ...               2017-09-06              0
+64118            0         21  ...               2017-09-06              0
+64119            0         23  ...               2017-09-06              0
+
+[10608 rows x 31 columns]
+>> Direct
+<<        is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+21               1         93  ...               2015-11-12              1
+22               1         93  ...               2015-11-12              1
+83               1         13  ...               2016-01-27              1
+90               0        116  ...               2016-02-07              1
+91               1        100  ...               2015-10-26              1
+...            ...        ...  ...                      ...            ...
+64093            0        135  ...               2017-09-04              0
+64100            0         54  ...               2017-09-04              0
+64103            0        261  ...               2017-09-04              0
+64104            0        207  ...               2017-09-04              0
+64115            0        188  ...               2017-09-05              0
+
+[5351 rows x 31 columns]
+>> Complementary
+<<        is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+58               1         12  ...               2016-01-07              1
+1059             0          3  ...               2016-05-21              1
+3231             1         79  ...               2016-10-27              1
+3483             1         14  ...               2016-11-30              1
+3741             1          1  ...               2017-01-11              1
+...            ...        ...  ...                      ...            ...
+57581            0          1  ...               2017-05-05              0
+59289            0          0  ...               2017-06-04              0
+59290            0          1  ...               2017-06-04              0
+59294            0          6  ...               2017-06-05              0
+60592            0          1  ...               2017-06-29              0
+
+[81 rows x 31 columns]
+>> Corporate
+<<        is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+75               1          2  ...               2016-01-26              1
+84               1         11  ...               2016-01-25              1
+2815             0        300  ...               2016-09-25              1
+2816             0        300  ...               2016-09-25              1
+2821             0        300  ...               2016-09-25              1
+...            ...        ...  ...                      ...            ...
+60377            0        149  ...               2017-06-25              0
+60381            0        149  ...               2017-06-25              0
+60384            0        149  ...               2017-06-25              0
+60988            0         10  ...               2017-07-07              0
+60998            0         10  ...               2017-07-07              0
+
+[303 rows x 31 columns]
+>> Aviation
+<<        is_canceled  lead_time  ...  reservation_status_date hotel_isResort
+23896            1          1  ...               2016-04-11              0
+23923            1          1  ...               2016-04-12              0
+25092            1         20  ...               2016-05-06              0
+25093            1         20  ...               2016-05-06              0
+37823            0          0  ...               2016-02-19              0
+38254            0          5  ...               2016-03-03              0
+39692            0          2  ...               2016-04-08              0
+39722            0          2  ...               2016-04-08              0
+39937            0          4  ...               2016-04-14              0
+40013            0          5  ...               2016-04-15              0
+40014            0          6  ...               2017-05-30              0
+40349            0          5  ...               2016-04-22              0
+40380            0         13  ...               2016-04-23              0
+40383            0         13  ...               2016-04-23              0
+40384            1         20  ...               2016-05-06              0
+40537            0          5  ...               2016-04-27              0
+40938            0          2  ...               2017-01-20              0
+47553            0          1  ...               2016-09-15              0
+47969            0          3  ...               2016-09-22              0
+47970            0          2  ...               2016-10-12              0
+50637            0          2  ...               2016-11-16              0
+57152            0          2  ...               2017-04-27              0
+58428            0          0  ...               2017-05-20              0
+58429            0          0  ...               2017-05-20              0
+
+[24 rows x 31 columns]
+{'ABW': 0.0, 'AGO': 0.27385892116182575, 'AIA': 2.0, 'ALB': 0.0, 'AND': 0.5714285714285714, 'ARE': 0.43478260869565216, 'ARG': 0.17964071856287425, 'ARM': 0.42857142857142855, 'ASM': 0.0, 'ATA': 0.0, 'ATF': 0.0, 'AUS': 0.10303030303030303, 'AUT': 0.11853720050441362, 'AZE': 0.6153846153846154, 'BDI': 0.0, 'BEL': 0.15822424587364825, 'BEN': 0.0, 'BFA': 0.0, 'BGD': 0.3, 'BGR': 0.15873015873015872, 'BHR': 0.6, 'BHS': 0.0, 'BIH': 0.0, 'BLR': 0.0625, 'BOL': 0.0, 'BRA': 0.19316239316239317, 'BRB': 0.0, 'CAF': 0.0, 'CHE': 0.18115942028985507, 'CHL': 0.1509433962264151, 'CHN': 0.16417910447761194, 'CIV': 0.0, 'CMR': 0.14285714285714285, 'CN': 0.11478800413650465, 'COL': 0.08064516129032258, 'COM': 1.5, 'CPV': 0.0, 'CRI': 0.1, 'CUB': 0.0, 'CYP': 0.16666666666666666, 'CZE': 0.08490566037735849, 'DEU': 0.09410784926087862, 'DJI': 2.0, 'DMA': 0.0, 'DNK': 0.23283582089552238, 'DOM': 0.5, 'DZA': 0.18032786885245902, 'ECU': 0.21739130434782608, 'EGY': 0.24, 'ESP': 0.2172257479601088, 'EST': 0.17391304347826086, 'ETH': 0.0, 'FIN': 0.1994219653179191, 'FJI': 2.0, 'FRA': 0.14414414414414414, 'FRO': 0.0, 'GAB': 0.25, 'GBR': 0.13025160912814512, 'GEO': 0.23529411764705882, 'GGY': 0.0, 'GHA': 0.0, 'GIB': 0.21428571428571427, 'GLP': 0.0, 'GNB': 0.0, 'GRC': 0.10810810810810811, 'GTM': 0.3333333333333333, 'GUY': 0.0, 'HKG': 0.0, 'HND': 0.0, 'HRV': 0.19718309859154928, 'HUN': 0.17613636363636365, 'IDN': 0.14285714285714285, 'IMN': 0.5, 'IND': 0.3418803418803419, 'IRL': 0.10699919549477072, 'IRN': 0.208955223880597, 'IRQ': 0.5, 'ISL': 0.12, 'ISR': 0.1794871794871795, 'ITA': 0.15813953488372093, 'JAM': 0.3333333333333333, 'JEY': 0.2857142857142857, 'JOR': 0.4666666666666667, 'JPN': 0.22297297297297297, 'KAZ': 0.26666666666666666, 'KEN': 0.5, 'KHM': 0.0, 'KIR': 0.0, 'KNA': 0.0, 'KOR': 0.14705882352941177, 'KWT': 0.0, 'LAO': 0.0, 'LBN': 0.15789473684210525, 'LBY': 0.2, 'LCA': 0.0, 'LIE': 0.0, 'LKA': 0.0, 'LTU': 0.09433962264150944, 'LUX': 0.24568965517241378, 'LVA': 0.10810810810810811, 'MAC': 0.0, 'MAR': 0.4368421052631579, 'MCO': 0.0, 'MDV': 0.3333333333333333, 'MEX': 0.19607843137254902, 'MKD': 0.0, 'MLI': 0.0, 'MLT': 0.07692307692307693, 'MNE': 0.6666666666666666, 'MOZ': 0.06976744186046512, 'MRT': 0.0, 'MUS': 0.2, 'MWI': 0.0, 'MYS': 0.1111111111111111, 'MYT': 1.0, 'NAM': 0.0, 'NCL': 0.0, 'NGA': 0.32142857142857145, 'NIC': 1.0, 'NLD': 0.1608695652173913, 'NOR': 0.2576419213973799, 'NPL': 0.0, 'NZL': 0.1, 'OMN': 0.5714285714285714, 'PAK': 0.18181818181818182, 'PAN': 0.0, 'PER': 0.043478260869565216, 'PHL': 0.06451612903225806, 'PLW': 0.0, 'POL': 0.26148969889064977, 'PRI': 0.0, 'PRT': 0.15217391304347827, 'PRY': 0.0, 'PYF': 0.0, 'QAT': 0.23076923076923078, 'ROU': 0.1921182266009852, 'RUS': 0.2346723044397463, 'RWA': 0.0, 'SAU': 0.24390243902439024, 'SDN': 0.0, 'SEN': 0.4, 'SGP': 0.03333333333333333, 'SLE': 0.0, 'SLV': 0.0, 'SRB': 0.041666666666666664, 'SUR': 0.5, 'SVK': 0.225, 'SVN': 0.39285714285714285, 'SWE': 0.2170767004341534, 'SYC': 0.0, 'SYR': 0.0, 'TGO': 0.0, 'THA': 0.3333333333333333, 'TJK': 0.0, 'TMP': 1.0, 'TUN': 0.25, 'TUR': 0.1590909090909091, 'TWN': 0.05128205128205128, 'TZA': 0.6, 'UGA': 0.0, 'UKR': 0.11764705882352941, 'UMI': 0.0, 'URY': 0.041666666666666664, 'USA': 0.19504643962848298, 'UZB': 0.0, 'VEN': 0.08333333333333333, 'VGB': 0.0, 'VNM': 0.0, 'ZAF': 0.16176470588235295, 'ZMB': 0.0, 'ZWE': 0.0}
+[('ABW', 0.0), ('ALB', 0.0), ('ASM', 0.0), ('ATA', 0.0), ('ATF', 0.0), ('BDI', 0.0), ('BEN', 0.0), ('BFA', 0.0), ('BHS', 0.0), ('BIH', 0.0), ('BOL', 0.0), ('BRB', 0.0), ('CAF', 0.0), ('CIV', 0.0), ('CPV', 0.0), ('CUB', 0.0), ('DMA', 0.0), ('ETH', 0.0), ('FRO', 0.0), ('GGY', 0.0), ('GHA', 0.0), ('GLP', 0.0), ('GNB', 0.0), ('GUY', 0.0), ('HKG', 0.0), ('HND', 0.0), ('KHM', 0.0), ('KIR', 0.0), ('KNA', 0.0), ('KWT', 0.0), ('LAO', 0.0), ('LCA', 0.0), ('LIE', 0.0), ('LKA', 0.0), ('MAC', 0.0), ('MCO', 0.0), ('MKD', 0.0), ('MLI', 0.0), ('MRT', 0.0), ('MWI', 0.0), ('NAM', 0.0), ('NCL', 0.0), ('NPL', 0.0), ('PAN', 0.0), ('PLW', 0.0), ('PRI', 0.0), ('PRY', 0.0), ('PYF', 0.0), ('RWA', 0.0), ('SDN', 0.0), ('SLE', 0.0), ('SLV', 0.0), ('SYC', 0.0), ('SYR', 0.0), ('TGO', 0.0), ('TJK', 0.0), ('UGA', 0.0), ('UMI', 0.0), ('UZB', 0.0), ('VGB', 0.0), ('VNM', 0.0), ('ZMB', 0.0), ('ZWE', 0.0), ('SGP', 0.033), ('SRB', 0.042), ('URY', 0.042), ('PER', 0.043), ('TWN', 0.051), ('BLR', 0.062), ('PHL', 0.065), ('MOZ', 0.07), ('MLT', 0.077), ('COL', 0.081), ('VEN', 0.083), ('CZE', 0.085), ('DEU', 0.094), ('LTU', 0.094), ('CRI', 0.1), ('NZL', 0.1), ('AUS', 0.103), ('IRL', 0.107), ('GRC', 0.108), ('LVA', 0.108), ('MYS', 0.111), ('CN', 0.115), ('UKR', 0.118), ('AUT', 0.119), ('ISL', 0.12), ('GBR', 0.13), ('CMR', 0.143), ('IDN', 0.143), ('FRA', 0.144), ('KOR', 0.147), ('CHL', 0.151), ('PRT', 0.152), ('BEL', 0.158), ('ITA', 0.158), ('LBN', 0.158), ('BGR', 0.159), ('TUR', 0.159), ('NLD', 0.161), ('ZAF', 0.162), ('CHN', 0.164), ('CYP', 0.167), ('EST', 0.174), ('HUN', 0.176), ('ISR', 0.179), ('ARG', 0.18), ('DZA', 0.18), ('CHE', 0.181), ('PAK', 0.182), ('ROU', 0.192), ('BRA', 0.193), ('USA', 0.195), ('MEX', 0.196), ('HRV', 0.197), ('FIN', 0.199), ('LBY', 0.2), ('MUS', 0.2), ('IRN', 0.209), ('GIB', 0.214), ('ECU', 0.217), ('ESP', 0.217), ('SWE', 0.217), ('JPN', 0.223), ('SVK', 0.225), ('QAT', 0.231), ('DNK', 0.233), ('GEO', 0.235), ('RUS', 0.235), ('EGY', 0.24), ('SAU', 0.244), ('LUX', 0.246), ('GAB', 0.25), ('TUN', 0.25), ('NOR', 0.258), ('POL', 0.261), ('KAZ', 0.267), ('AGO', 0.274), ('JEY', 0.286), ('BGD', 0.3), ('NGA', 0.321), ('GTM', 0.333), ('JAM', 0.333), ('MDV', 0.333), ('THA', 0.333), ('IND', 0.342), ('SVN', 0.393), ('SEN', 0.4), ('ARM', 0.429), ('ARE', 0.435), ('MAR', 0.437), ('JOR', 0.467), ('DOM', 0.5), ('IMN', 0.5), ('IRQ', 0.5), ('KEN', 0.5), ('SUR', 0.5), ('AND', 0.571), ('OMN', 0.571), ('BHR', 0.6), ('TZA', 0.6), ('AZE', 0.615), ('MNE', 0.667), ('MYT', 1.0), ('NIC', 1.0), ('TMP', 1.0), ('COM', 1.5), ('AIA', 2.0), ('DJI', 2.0), ('FJI', 2.0)]
+171
+34
+[('ABW', 0.0), ('ALB', 0.0), ('ASM', 0.0), ('ATA', 0.0), ('ATF', 0.0), ('BDI', 0.0), ('BEN', 0.0), ('BFA', 0.0), ('BHS', 0.0), ('BIH', 0.0), ('BOL', 0.0), ('BRB', 0.0), ('CAF', 0.0), ('CIV', 0.0), ('CPV', 0.0), ('CUB', 0.0), ('DMA', 0.0), ('ETH', 0.0), ('FRO', 0.0), ('GGY', 0.0), ('GHA', 0.0), ('GLP', 0.0), ('GNB', 0.0), ('GUY', 0.0), ('HKG', 0.0), ('HND', 0.0), ('KHM', 0.0), ('KIR', 0.0), ('KNA', 0.0), ('KWT', 0.0), ('LAO', 0.0), ('LCA', 0.0), ('LIE', 0.0), ('LKA', 0.0)]
+[('MAC', 0.0), ('MCO', 0.0), ('MKD', 0.0), ('MLI', 0.0), ('MRT', 0.0), ('MWI', 0.0), ('NAM', 0.0), ('NCL', 0.0), ('NPL', 0.0), ('PAN', 0.0), ('PLW', 0.0), ('PRI', 0.0), ('PRY', 0.0), ('PYF', 0.0), ('RWA', 0.0), ('SDN', 0.0), ('SLE', 0.0), ('SLV', 0.0), ('SYC', 0.0), ('SYR', 0.0), ('TGO', 0.0), ('TJK', 0.0), ('UGA', 0.0), ('UMI', 0.0), ('UZB', 0.0), ('VGB', 0.0), ('VNM', 0.0), ('ZMB', 0.0), ('ZWE', 0.0), ('SGP', 0.033), ('SRB', 0.042), ('URY', 0.042), ('PER', 0.043), ('TWN', 0.051)]
+[('BLR', 0.062), ('PHL', 0.065), ('MOZ', 0.07), ('MLT', 0.077), ('COL', 0.081), ('VEN', 0.083), ('CZE', 0.085), ('DEU', 0.094), ('LTU', 0.094), ('CRI', 0.1), ('NZL', 0.1), ('AUS', 0.103), ('IRL', 0.107), ('GRC', 0.108), ('LVA', 0.108), ('MYS', 0.111), ('CN', 0.115), ('UKR', 0.118), ('AUT', 0.119), ('ISL', 0.12), ('GBR', 0.13), ('CMR', 0.143), ('IDN', 0.143), ('FRA', 0.144), ('KOR', 0.147), ('CHL', 0.151), ('PRT', 0.152), ('BEL', 0.158), ('ITA', 0.158), ('LBN', 0.158), ('BGR', 0.159), ('TUR', 0.159), ('NLD', 0.161), ('ZAF', 0.162)]
+[('CHN', 0.164), ('CYP', 0.167), ('EST', 0.174), ('HUN', 0.176), ('ISR', 0.179), ('ARG', 0.18), ('DZA', 0.18), ('CHE', 0.181), ('PAK', 0.182), ('ROU', 0.192), ('BRA', 0.193), ('USA', 0.195), ('MEX', 0.196), ('HRV', 0.197), ('FIN', 0.199), ('LBY', 0.2), ('MUS', 0.2), ('IRN', 0.209), ('GIB', 0.214), ('ECU', 0.217), ('ESP', 0.217), ('SWE', 0.217), ('JPN', 0.223), ('SVK', 0.225), ('QAT', 0.231), ('DNK', 0.233), ('GEO', 0.235), ('RUS', 0.235), ('EGY', 0.24), ('SAU', 0.244), ('LUX', 0.246), ('GAB', 0.25), ('TUN', 0.25), ('NOR', 0.258)]
+[('POL', 0.261), ('KAZ', 0.267), ('AGO', 0.274), ('JEY', 0.286), ('BGD', 0.3), ('NGA', 0.321), ('GTM', 0.333), ('JAM', 0.333), ('MDV', 0.333), ('THA', 0.333), ('IND', 0.342), ('SVN', 0.393), ('SEN', 0.4), ('ARM', 0.429), ('ARE', 0.435), ('MAR', 0.437), ('JOR', 0.467), ('DOM', 0.5), ('IMN', 0.5), ('IRQ', 0.5), ('KEN', 0.5), ('SUR', 0.5), ('AND', 0.571), ('OMN', 0.571), ('BHR', 0.6), ('TZA', 0.6), ('AZE', 0.615), ('MNE', 0.667), ('MYT', 1.0), ('NIC', 1.0), ('TMP', 1.0), ('COM', 1.5), ('AIA', 2.0), ('DJI', 2.0), ('FJI', 2.0)]
+==========================================
+[('ABW', 0.0), ('ALB', 0.0), ('ASM', 0.0), ('ATA', 0.0), ('ATF', 0.0), ('BDI', 0.0), ('BEN', 0.0), ('BFA', 0.0), ('BHS', 0.0), ('BIH', 0.0), ('BOL', 0.0), ('BRB', 0.0), ('CAF', 0.0), ('CIV', 0.0), ('CPV', 0.0), ('CUB', 0.0), ('DMA', 0.0), ('ETH', 0.0), ('FRO', 0.0), ('GGY', 0.0), ('GHA', 0.0), ('GLP', 0.0), ('GNB', 0.0), ('GUY', 0.0), ('HKG', 0.0), ('HND', 0.0), ('KHM', 0.0), ('KIR', 0.0), ('KNA', 0.0), ('KWT', 0.0), ('LAO', 0.0), ('LCA', 0.0), ('LIE', 0.0), ('LKA', 0.0), ('MAC', 0.0), ('MCO', 0.0), ('MKD', 0.0), ('MLI', 0.0), ('MRT', 0.0), ('MWI', 0.0), ('NAM', 0.0), ('NCL', 0.0), ('NPL', 0.0), ('PAN', 0.0), ('PLW', 0.0), ('PRI', 0.0), ('PRY', 0.0), ('PYF', 0.0), ('RWA', 0.0), ('SDN', 0.0), ('SLE', 0.0), ('SLV', 0.0), ('SYC', 0.0), ('SYR', 0.0), ('TGO', 0.0), ('TJK', 0.0), ('UGA', 0.0), ('UMI', 0.0), ('UZB', 0.0), ('VGB', 0.0), ('VNM', 0.0), ('ZMB', 0.0), ('ZWE', 0.0), ('SGP', 0.033)]
+[('SRB', 0.042), ('URY', 0.042), ('PER', 0.043), ('TWN', 0.051), ('BLR', 0.062), ('PHL', 0.065), ('MOZ', 0.07), ('MLT', 0.077), ('COL', 0.081), ('VEN', 0.083), ('CZE', 0.085), ('DEU', 0.094), ('LTU', 0.094)]
+[('CRI', 0.1), ('NZL', 0.1), ('AUS', 0.103), ('IRL', 0.107), ('GRC', 0.108), ('LVA', 0.108), ('MYS', 0.111), ('CN', 0.115), ('UKR', 0.118), ('AUT', 0.119), ('ISL', 0.12), ('GBR', 0.13), ('CMR', 0.143), ('IDN', 0.143), ('FRA', 0.144), ('KOR', 0.147), ('CHL', 0.151), ('PRT', 0.152), ('BEL', 0.158), ('ITA', 0.158), ('LBN', 0.158), ('BGR', 0.159), ('TUR', 0.159), ('NLD', 0.161), ('ZAF', 0.162), ('CHN', 0.164), ('CYP', 0.167), ('EST', 0.174), ('HUN', 0.176), ('ISR', 0.179), ('ARG', 0.18), ('DZA', 0.18), ('CHE', 0.181), ('PAK', 0.182), ('ROU', 0.192), ('BRA', 0.193), ('USA', 0.195), ('MEX', 0.196), ('HRV', 0.197), ('FIN', 0.199)]
+[('LBY', 0.2), ('MUS', 0.2), ('IRN', 0.209), ('GIB', 0.214), ('ECU', 0.217), ('ESP', 0.217), ('SWE', 0.217), ('JPN', 0.223), ('SVK', 0.225), ('QAT', 0.231), ('DNK', 0.233), ('GEO', 0.235), ('RUS', 0.235), ('EGY', 0.24), ('SAU', 0.244), ('LUX', 0.246), ('GAB', 0.25), ('TUN', 0.25), ('NOR', 0.258), ('POL', 0.261), ('KAZ', 0.267), ('AGO', 0.274), ('JEY', 0.286), ('BGD', 0.3), ('NGA', 0.321), ('GTM', 0.333), ('JAM', 0.333), ('MDV', 0.333), ('THA', 0.333), ('IND', 0.342), ('SVN', 0.393)]
+[('SEN', 0.4), ('ARM', 0.429), ('ARE', 0.435), ('MAR', 0.437), ('JOR', 0.467), ('DOM', 0.5), ('IMN', 0.5), ('IRQ', 0.5), ('KEN', 0.5), ('SUR', 0.5), ('AND', 0.571), ('OMN', 0.571), ('BHR', 0.6), ('TZA', 0.6), ('AZE', 0.615), ('MNE', 0.667), ('MYT', 1.0), ('NIC', 1.0), ('TMP', 1.0), ('COM', 1.5), ('AIA', 2.0), ('DJI', 2.0), ('FJI', 2.0)]
+('ABW', 0.0)
+('ALB', 0.0)
+('ASM', 0.0)
+('ATA', 0.0)
+('ATF', 0.0)
+('BDI', 0.0)
+('BEN', 0.0)
+('BFA', 0.0)
+('BHS', 0.0)
+('BIH', 0.0)
+('BOL', 0.0)
+('BRB', 0.0)
+('CAF', 0.0)
+('CIV', 0.0)
+('CPV', 0.0)
+('CUB', 0.0)
+('DMA', 0.0)
+('ETH', 0.0)
+('FRO', 0.0)
+('GGY', 0.0)
+('GHA', 0.0)
+('GLP', 0.0)
+('GNB', 0.0)
+('GUY', 0.0)
+('HKG', 0.0)
+('HND', 0.0)
+('KHM', 0.0)
+('KIR', 0.0)
+('KNA', 0.0)
+('KWT', 0.0)
+('LAO', 0.0)
+('LCA', 0.0)
+('LIE', 0.0)
+('LKA', 0.0)
+('MAC', 0.0)
+('MCO', 0.0)
+('MKD', 0.0)
+('MLI', 0.0)
+('MRT', 0.0)
+('MWI', 0.0)
+('NAM', 0.0)
+('NCL', 0.0)
+('NPL', 0.0)
+('PAN', 0.0)
+('PLW', 0.0)
+('PRI', 0.0)
+('PRY', 0.0)
+('PYF', 0.0)
+('RWA', 0.0)
+('SDN', 0.0)
+('SLE', 0.0)
+('SLV', 0.0)
+('SYC', 0.0)
+('SYR', 0.0)
+('TGO', 0.0)
+('TJK', 0.0)
+('UGA', 0.0)
+('UMI', 0.0)
+('UZB', 0.0)
+('VGB', 0.0)
+('VNM', 0.0)
+('ZMB', 0.0)
+('ZWE', 0.0)
+('SGP', 0.033)
+('SRB', 0.042)
+('URY', 0.042)
+('PER', 0.043)
+('TWN', 0.051)
+('BLR', 0.062)
+('PHL', 0.065)
+('MOZ', 0.07)
+('MLT', 0.077)
+('COL', 0.081)
+('VEN', 0.083)
+('CZE', 0.085)
+('DEU', 0.094)
+('LTU', 0.094)
+('CRI', 0.1)
+('NZL', 0.1)
+('AUS', 0.103)
+('IRL', 0.107)
+('GRC', 0.108)
+('LVA', 0.108)
+('MYS', 0.111)
+('CN', 0.115)
+('UKR', 0.118)
+('AUT', 0.119)
+('ISL', 0.12)
+('GBR', 0.13)
+('CMR', 0.143)
+('IDN', 0.143)
+('FRA', 0.144)
+('KOR', 0.147)
+('CHL', 0.151)
+('PRT', 0.152)
+('BEL', 0.158)
+('ITA', 0.158)
+('LBN', 0.158)
+('BGR', 0.159)
+('TUR', 0.159)
+('NLD', 0.161)
+('ZAF', 0.162)
+('CHN', 0.164)
+('CYP', 0.167)
+('EST', 0.174)
+('HUN', 0.176)
+('ISR', 0.179)
+('ARG', 0.18)
+('DZA', 0.18)
+('CHE', 0.181)
+('PAK', 0.182)
+('ROU', 0.192)
+('BRA', 0.193)
+('USA', 0.195)
+('MEX', 0.196)
+('HRV', 0.197)
+('FIN', 0.199)
+('LBY', 0.2)
+('MUS', 0.2)
+('IRN', 0.209)
+('GIB', 0.214)
+('ECU', 0.217)
+('ESP', 0.217)
+('SWE', 0.217)
+('JPN', 0.223)
+('SVK', 0.225)
+('QAT', 0.231)
+('DNK', 0.233)
+('GEO', 0.235)
+('RUS', 0.235)
+('EGY', 0.24)
+('SAU', 0.244)
+('LUX', 0.246)
+('GAB', 0.25)
+('TUN', 0.25)
+('NOR', 0.258)
+('POL', 0.261)
+('KAZ', 0.267)
+('AGO', 0.274)
+('JEY', 0.286)
+('BGD', 0.3)
+('NGA', 0.321)
+('GTM', 0.333)
+('JAM', 0.333)
+('MDV', 0.333)
+('THA', 0.333)
+('IND', 0.342)
+('SVN', 0.393)
+('SEN', 0.4)
+('ARM', 0.429)
+('ARE', 0.435)
+('MAR', 0.437)
+('JOR', 0.467)
+('DOM', 0.5)
+('IMN', 0.5)
+('IRQ', 0.5)
+('KEN', 0.5)
+('SUR', 0.5)
+('AND', 0.571)
+('OMN', 0.571)
+('BHR', 0.6)
+('TZA', 0.6)
+('AZE', 0.615)
+('MNE', 0.667)
+('MYT', 1.0)
+('NIC', 1.0)
+('TMP', 1.0)
+('COM', 1.5)
+('AIA', 2.0)
+('DJI', 2.0)
+('FJI', 2.0)

@@ -93,3 +93,6 @@ for i in range(5):
 
 print(success)
 print(np.mean(success))
+
+
+

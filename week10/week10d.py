@@ -3,8 +3,10 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 s = "realtor-data.zip.csv"
 import pandas as pd
+import sys
 t = 'price'
 df = pd.read_csv(s)
+df = df.sample(frac = 0.05)
 del df['status']
 del df['city']
 del df['zip_code']
@@ -28,13 +30,17 @@ reg = RandomForestRegressor(max_depth=4, random_state=0)
 reg.fit( x, y )
 
 x['pred'] = reg.predict(x)
+x['pred'] = x['pred'].astype(int)
+x['pred'] = x['pred'].round(-1)
 x['real'] = y
 x['error'] = x['pred'] - x['real']
-
 x['abs-error'] = x['error'].abs()
 x['percentage'] = x['abs-error'] / x['real']
-print(x)
 
+
+x = x.sort_values(by = ['error'])
+x.to_csv("week10_regd.csv")
+sys.exit(1)
 
 print("CORR", x['pred'].corr(x['real']))
 print( "MAE", x['abs-error'].mean() )

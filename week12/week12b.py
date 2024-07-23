@@ -16,7 +16,7 @@ y = "SalePrice"
 x.remove(y)
 
 # Initialize and train H2O AutoML
-aml = H2OAutoML(max_models=5, seed=1)
+aml = H2OAutoML(max_models=7, seed=1)
 aml.train(x=x, y=y, training_frame=train)
 
 # View the AutoML leaderboard
@@ -30,5 +30,5 @@ best_model = aml.leader
 predictions = best_model.predict(test)
 print(predictions)
 
-h2o.shutdown()
+h2o.cluster().shutdown()
 

@@ -6,7 +6,8 @@ s = "week9_hypertension_data.csv"
 df = pd.read_csv(s)
 t = "target"
 
-#: Drop none
+
+#: Drop rows which have nulls
 df = df.dropna()
 
 #: Sample, shuffle
